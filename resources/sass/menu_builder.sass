@@ -1,0 +1,80 @@
+
+@import "~slick-carousel/slick/slick.css"
+@import "~slick-carousel/slick/slick-theme.css"
+
+
+::-webkit-scrollbar
+    width: 10px
+
+::-webkit-scrollbar-track
+    background: #f1f1f1
+
+::-webkit-scrollbar-thumb
+    background: #888
+
+::-webkit-scrollbar-thumb:hover
+    background: #555
+
+.menu_builder
+    background-color: #fff
+    padding: 20px
+    height: 100vh
+
+    button
+        &:hover
+            text-decoration: none
+
+h1
+    color: #000
+    font-weight: 100
+
+.weeks
+    .slick-track
+        margin: 0 -15px
+
+    // .current_week
+    //     background-color: #00cc33
+    
+    // .next_week
+    //     background-color: #ffff00
+
+    .week, .add_week
+        padding: 15px
+        background-color: #8BC34A
+        margin: 0 15px
+        height: 30rem
+
+        .title
+            color: #fff
+
+            svg
+                font-size: 20px
+                margin-top: -5px
+
+        .categories
+            max-height: 22rem
+            height: 22rem
+            overflow: auto
+
+            .card
+                border-radius: 0
+                border: none
+                background-color: #D9F4C7
+
+            .category
+                border-bottom: 2px solid #8bc34a
+
+                .card-header
+                    padding: 5px
+
+                    button
+                        color: #000
+
+        .add_category
+            bottom: 10px
+            position: absolute
+            cursor: pointer
+
+    .add_week
+        background-color: #9DCDC0
+        height: initial
